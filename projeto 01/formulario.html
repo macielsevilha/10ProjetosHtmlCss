@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #F9F9F9;
+        }
+        
+        .formulario-v1-conteudo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .formulario-v1-caixa {
+            background-color: #fff;
+            width: 600px;
+            position: relative;
+            padding: 0px 50px;
+            box-shadow: 0px 3px 5px 0px #F1F1F1;
+            border-radius: 5px;
+        }
+        
+        .formulario-v1-imagem {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -40px;
+        }
+        
+        .formulario-v1-form {
+            margin-top: 5rem;
+        }
+        
+        .formulario-v1-form form input {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            margin-top: 3px;
+            border: solid 2px #F5F5F5;
+            box-shadow: 0px 0px 5px 0px #F5F5F5;
+            color: #A699DE;
+        }
+        
+        .formulario-v1-form form input:focus {
+            outline: 0;
+            border: solid 1px #A699DE;
+            box-shadow: 0px 0px 5px 0px #A699DE;
+        }
+        
+        .formulario-v1-botao {
+            text-align: center;
+            padding: 30px;
+        }
+        
+        .formulario-v1-botao button {
+            padding: 10px 20px;
+            border: solid 1.5px #E22A1D;
+            border-radius: 5px;
+            background-image: linear-gradient(to bottom, #E35C50, #D84239);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="formulario-v1-conteudo">
+        <div class="formulario-v1-caixa">
+            <div class="formulario-v1-imagem">
+                <img src="./img/logoTipo.png" alt="">
+            </div>
+            <div class="formulario-v1-form">
+                <form action="" method="post">
+                    <label for="cardApikey">cardApikey</label>
+                    <input type="text" name="cardApikey" id="">
+
+                    <label for="cardApiPass">cardApiPass</label>
+                    <input type="text" name="cardApiPass" id="">
+
+                    <label for="cardkeyRSA">cardKeyRSA</label>
+                    <input type="text" name="cardkeyRSA" id="">
+
+                    <label for="cardVerificationCode">cardVerificationCode</label>
+                    <input type="text" name="cardVerificationCode" id="">
+
+                    <label for="cardHashAlg">cardHashAlg</label>
+                    <input type="text" name="cardHashAlg" id="">
+
+                    <div class="formulario-v1-botao">
+                        <button type="submit">Remove Integration</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
