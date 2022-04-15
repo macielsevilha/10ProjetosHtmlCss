@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    background-color: #FDF8F3;
+}
+
+section {
+    background-color: #FDF8F3;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1500px;
+    height: 70px;
+    background-color: #FDF8F3;
+    position: relative;
+    padding: 0px 20px;
+    margin: auto;
+}
+
+header img {
+    width: 100px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px;
+    color: black;
+}
+
+.log-sign button {
+    background-color: #fdf8f300;
+    border: none;
+    padding: 10px 20px;
+}
+
+.botao-personalizado {
+    border: solid 2px black !important;
+}
+
+main {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    height: 400px;
+    margin-top: 100px;
+}
+
+main img {
+    width: 400px;
+}
+
+.content {
+    width: 500px;
+    padding: 50px;
+}
+
+.text h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.text p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 20px;
+    width: 300px;
+}
+
+.buttons p {
+    padding-left: 10px;
+}
+
+.buttons button {
+    width: 100px;
+    height: 35px;
+    font-size: 11px;
+    border: none;
+    background-color: black;
+    color: #FDF8F3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.link p span {
+    background-color: black;
+    color: #FDF8F3;
+}
