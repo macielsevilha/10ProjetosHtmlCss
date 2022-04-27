@@ -1,0 +1,1 @@
+console.log(floor+(random() * (10 - 1)) + 1)
