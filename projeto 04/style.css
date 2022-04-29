@@ -22,3 +22,70 @@
     text-decoration: none;
     color: #666;
 }
+
+.main {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #F9F9FC;
+    position: relative;
+    height: 445px;
+    margin-top: 50px;
+}
+
+.display {
+    display: flex;
+}
+
+.texto {
+    width: 400px;
+    padding: 50px;
+}
+
+.texto h1 {
+    font-size: 45px;
+}
+
+.texto span {
+    color: #5E3AEE;
+    display: flex;
+    align-items: center;
+}
+
+.texto img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.texto p {
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+.imagem {
+    position: absolute;
+    right: 0;
+    top: -20px;
+}
+
+.imagem img {
+    width: 400px;
+}
+
+.input {
+    margin-top: 20px;
+}
+
+.input input {
+    padding: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px -8px black;
+}
+
+.input button {
+    padding: 10px;
+    color: #F9F9FC;
+    background-color: #5E3AEE;
+    border: none;
+}
