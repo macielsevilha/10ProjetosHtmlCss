@@ -89,3 +89,40 @@
     background-color: #5E3AEE;
     border: none;
 }
+
+.total {
+    margin-top: 50px;
+    border-top: solid 1px rgb(154, 154, 154);
+    border-bottom: solid 1px rgb(154, 154, 154);
+}
+
+.projetos {
+    display: grid;
+    grid-template-columns: 10fr 10fr 10fr 10fr;
+    text-align: center;
+}
+
+.projeto-1 {
+    width: 200px;
+}
+
+.projeto-2 {
+    width: 200px;
+}
+
+.projeto-3 {
+    width: 200px;
+}
+
+.projeto-4 {
+    width: 200px;
+}
+
+.text h3 {
+    font-size: 27px;
+}
+
+.text span {
+    font-size: 14px;
+    color: rgb(154, 154, 154);
+}
