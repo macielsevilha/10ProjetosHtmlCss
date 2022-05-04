@@ -127,3 +127,60 @@
     font-size: 14px;
     color: rgb(154, 154, 154);
 }
+
+.sobre {
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    height: 369px;
+    width: 90%;
+    background-color: #0F1221;
+    position: relative;
+    margin-top: 100px;
+}
+
+.sobre-caixa {}
+
+.sobre-caixa img {
+    top: -46px;
+    width: 400px;
+    position: absolute;
+    left: 20px;
+}
+
+.sobre-texto {
+    width: 300px;
+    right: 40px;
+    top: 40px;
+    color: aliceblue;
+    float: right;
+    margin: 30px 45px 0px 0px;
+}
+
+.sobre-texto h5 {
+    color: #808080;
+}
+
+.sobre-texto h3 {
+    font-size: 30px;
+    margin-top: 4px;
+}
+
+.sobre-texto h3 span img {
+    width: 10%;
+    height: 10%;
+    position: relative;
+    top: 10px;
+    left: -5px;
+}
+
+.sobre-texto p {
+    color: #d0d0d0;
+    padding-bottom: 6px;
+}
+
+.sobre-texto button {
+    padding: 10px 15px;
+    background-color: white;
+    border: none;
+}
