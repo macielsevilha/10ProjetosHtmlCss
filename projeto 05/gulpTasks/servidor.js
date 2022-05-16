@@ -11,6 +11,8 @@ function monitorArquivos() {
         }))
 }
 
+
+
 function servidor(cb) {
     watch('src/**.html', () => gulp.series('appHTML')())
     watch('src/**.scss', () => gulp.series('appCSS')())

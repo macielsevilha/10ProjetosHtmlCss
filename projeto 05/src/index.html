@@ -7,15 +7,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/app.min.css">
     <title>projeto 5</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: monospace;
+        }
+        
+        ul li,
+        a {
+            text-decoration: none;
+            list-style: none;
+        }
+        
+        section {
+            width: 100%;
+            max-width: 1284px;
+            height: 500px;
+            background: linear-gradient( 90deg, #F9D1CF, 50%, #7AD592 0%);
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 25px;
+            align-items: center;
+        }
+        
+        .logo {
+            padding-left: 25px;
+            text-transform: uppercase;
+            font-size: 20px;
+        }
+        
+        header .menu nav ul li {
+            display: inline;
+            padding-left: 25px;
+        }
+        
+        header .menu nav ul li a {
+            text-transform: uppercase;
+            font-size: 12px;
+            color: black;
+            font-weight: 700;
+        }
+        
+        .redes-sociais ul li {
+            display: inline;
+            padding: 10px;
+        }
+        
+        .redes-sociais ul li img {
+            width: 19px;
+        }
+    </style>
+
 </head>
 
 <body>
-    <div>
-        <h1>testando codigo</h1>
-        <p>testando</p>
-        fgfgjfdkgj
 
-    </div>
+    <section>
+        <header>
+            <div class="logo">
+                <h3>feltea</h3>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a class="black" href="">flavors</a></li>
+                        <li><a href="">store</a></li>
+                        <li><a href="">blog</a></li>
+                        <li><a href="">about us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="redes-sociais">
+                <ul>
+                    <li>
+                        <img src="./assets/imgs/lupa.png" alt="">
+                    </li>
+                    <li>
+                        <img src="./assets/imgs/cesta.png" alt="">
+                    </li>
+                    <li>
+                        <img src="./assets/imgs/perfil.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </section>
+
 </body>
 
 </html>
