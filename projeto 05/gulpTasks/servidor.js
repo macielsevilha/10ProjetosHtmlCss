@@ -1,17 +1,25 @@
-function appHTML(cb) {
+const gulp = require('gulp')
+const webserver = require('gulp-webserver')
+const watch = require('gulp-watch')
+
+function monitorArquivos() {
+    return gulp.src('build')
+        .pipe(webserver({
+            port: 8080,
+            open: true,
+            livereload: true
+        }))
+}
+
+function servidor(cb) {
+    watch('src/**.html', () => gulp.series('appHTML')())
+    watch('src/**.scss', () => gulp.series('appCSS')())
+    watch('src/assets/imgs/**/*.*', () => gulp.series('appIMG')())
+
     return cb()
 }
 
-function appCSS(cb) {
-    return cb()
-}
-
-function appIMG(cb) {
-    return cb()
-}
-
-module.exports - {
-    appHTML,
-    appCSS,
-    appIMG
+module.exports = {
+    monitorArquivos,
+    servidor
 }
