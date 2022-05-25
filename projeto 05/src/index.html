@@ -94,6 +94,28 @@
         .caixa:nth-child(3) {
             background-color: rgb(8, 0, 82);
         }
+        
+        .caixa-t {
+            display: flex;
+            align-items: center;
+            padding: 35px;
+        }
+        
+        .texto h3 {
+            padding: 10px 0;
+        }
+        
+        .texto p {
+            font-size: 12px;
+        }
+        
+        .button button {
+            background-color: rebeccapurple;
+            clip-path: polygon(0 0, 95% 0, 100% 7%, 86% 96%, 83% 100%, 0 100%, 0% 30%);
+            padding: 10px 30px;
+            border-radius: 5px;
+            border: none;
+        }
     </style>
 
 </head>
@@ -132,11 +154,15 @@
         <main>
             <header>
                 <div class="caixas">
-                    <div class="caixa">
+                    <div class="caixa caixa-t">
                         <div class="texto">
                             <h3>now taking online ordres</h3>
                             <p>Green tea has shown to improve blood flow and lower cholesterol. A 2013 review of many studies found green tea helped prevent a range of heart-related issues, from hight blood pressure to congestive heart failure. What´s good
                                 fot the heart is usually good for the brain; your brain needs healthy blood vessels, too.</p>
+                            <div class="button">
+                                <button>Add To Cart</button>
+                                <h4>$4.97<span>/ti</span></h4>
+                            </div>
                         </div>
                     </div>
                     <div class="caixa">
