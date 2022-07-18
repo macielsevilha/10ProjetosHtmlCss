@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <display-login-vue />
+    <display-login-vue/>
   </div>
 </template>
 
@@ -11,6 +11,7 @@ export default {
   name: 'App',
   components: {
    DisplayLoginVue,
+ 
   }
 }
 </script>
