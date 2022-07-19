@@ -2,15 +2,18 @@
   <div id="app">
     <display-login-vue/>
   </div>
+  
 </template>
 
 <script>
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 import DisplayLoginVue from './components/DisplayLogin.vue'
 
 export default {
   name: 'App',
   components: {
    DisplayLoginVue,
+  
  
   }
 }
