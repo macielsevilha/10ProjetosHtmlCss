@@ -31,5 +31,8 @@ export default {
 </script>
 
 <style>
-
+  .login {
+    background: red;
+    width: 500px;
+  }
 </style>

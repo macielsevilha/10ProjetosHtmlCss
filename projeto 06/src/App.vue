@@ -21,11 +21,12 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  background: rgb(246,200,213);
+  background: linear-gradient(297deg, rgba(246,200,213,1) 2%, rgba(231,27,27,0.993006993006993) 98%);
 }
 </style>
