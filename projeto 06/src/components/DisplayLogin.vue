@@ -32,7 +32,9 @@ export default {
 
 <style>
   .login {
-    background: red;
+    background: rgb(133, 131, 131);
+    
     width: 500px;
+   
   }
 </style>
