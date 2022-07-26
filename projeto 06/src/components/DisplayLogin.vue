@@ -1,25 +1,28 @@
 <template>
-  <div class="login">
+  <div class="text-center bg-white py-5 px-1 rounded" >
     <h1>Create account</h1>
-    <form action="">
-      <label for="">Already have an account? <a href="">Sign in</a></label>
-      <input type="text" name="" placeholder="name" />
-      <input type="text" name="" placeholder="First name" />
-      <input type="text" name="" placeholder="Last name" />
-      <input type="text" name="" placeholder="E-mail" />
-      <div class="button">
-        <display-button-vue />
-      </div>
-      <div class="my-4 mx-4">
-        <b-form-checkbox v-model="status">
-          I have read and agree to the
-          <b-link href="#foo" disabled> Terms of Service </b-link>
-          <div>
-            State: <strong>{{ status }}</strong>
-          </div>
-        </b-form-checkbox>
-      </div>
-    </form>
+    <div class="my-4 mx-4">
+      <b-form>
+        <b-form-input placeholder="Kersvers" :formatter="formatter"/>
+        <div class="d-flex">
+          <b-form-input placeholder="First name" />
+          <b-form-input placeholder="Last name" />
+        </div>
+      </b-form>
+    </div>
+    <div class="button">
+      <display-button-vue />
+    </div>
+    <div class="my-4 mx-4">
+      <b-form-checkbox v-model="status">
+        I have read and agree to the
+        <b-link href="#foo" disabled> Terms of Service </b-link>
+        <div>
+          State: <strong>{{ status }}</strong>
+        </div>
+      </b-form-checkbox>
+    </div>
+  
   </div>
 </template>
 
@@ -40,8 +43,12 @@ export default {
 
 <style>
 .login {
-  background: rgb(133, 131, 131);
+  background: white;
 
   width: 500px;
+
+}
+form input {
+  margin: 10px 0px;
 }
 </style>
