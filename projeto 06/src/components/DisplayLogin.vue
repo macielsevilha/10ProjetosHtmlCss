@@ -1,6 +1,7 @@
 <template>
   <div class="text-center bg-white py-5 px-1 rounded" >
     <h1>Create account</h1>
+    <p>Already have an account? <a href="">Sign in</a></p>
     <div class="my-4 mx-4">
       <b-form>
         <b-form-input placeholder="Kersvers" :formatter="formatter"/>
