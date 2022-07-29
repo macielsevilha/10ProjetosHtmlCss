@@ -5,9 +5,10 @@
       <b-form>
         <b-form-input placeholder="Kersvers" :formatter="formatter"/>
         <div class="d-flex">
-          <b-form-input placeholder="First name" />
+          <b-form-input class="mr-3" placeholder="First name" />
           <b-form-input placeholder="Last name" />
         </div>
+        <b-form-input placeholder="E-mail"></b-form-input>
       </b-form>
     </div>
     <div class="button">
